@@ -1,0 +1,4 @@
+{"ts": "2026-05-26T15:54:03.149386", "session_id": "s-20260526-155403-0528", "step": null, "event": "session_start", "payload": {"agent_name": "酒店推荐专家", "agent_type": "SimpleAgent"}}
+{"ts": "2026-05-26T15:54:03.149565", "session_id": "s-20260526-155403-0528", "step": null, "event": "message_written", "payload": {"role": "user", "content": "请搜索沈阳的经济型酒店酒店"}}
+{"ts": "2026-05-26T15:54:05.707343", "session_id": "s-20260526-155403-0528", "step": 1, "event": "model_output", "payload": {"content": "[TOOL_CALL:amap_maps_text_search:keywords=经济型酒店,city=沈阳]", "tool_calls": 0, "usage": {"prompt_tokens": 2921, "completion_tokens": 67, "total_tokens": 2988}}}
+{"ts": "2026-05-26T15:54:05.707980", "session_id": "s-20260526-155403-0528", "step": null, "event": "session_end", "payload": {"duration": 2.559795, "total_steps": 1, "final_answer": "[TOOL_CALL:amap_maps_text_search:keywords=经济型酒店,city=沈阳]", "status": "success"}}

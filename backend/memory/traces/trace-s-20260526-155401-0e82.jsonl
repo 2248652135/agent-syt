@@ -1,0 +1,4 @@
+{"ts": "2026-05-26T15:54:01.851265", "session_id": "s-20260526-155401-0e82", "step": null, "event": "session_start", "payload": {"agent_name": "天气查询专家", "agent_type": "SimpleAgent"}}
+{"ts": "2026-05-26T15:54:01.851479", "session_id": "s-20260526-155401-0e82", "step": null, "event": "message_written", "payload": {"role": "user", "content": "请查询沈阳的天气信息"}}
+{"ts": "2026-05-26T15:54:03.147277", "session_id": "s-20260526-155401-0e82", "step": 1, "event": "model_output", "payload": {"content": "[TOOL_CALL:amap_maps_weather:city=沈阳]", "tool_calls": 0, "usage": {"prompt_tokens": 2922, "completion_tokens": 45, "total_tokens": 2967}}}
+{"ts": "2026-05-26T15:54:03.147758", "session_id": "s-20260526-155401-0e82", "step": null, "event": "session_end", "payload": {"duration": 1.298331, "total_steps": 1, "final_answer": "[TOOL_CALL:amap_maps_weather:city=沈阳]", "status": "success"}}
